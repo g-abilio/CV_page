@@ -1,35 +1,34 @@
-/* for some reason, this css on the body tag
-eliminates the blank space at the bottom of
-the page */
 body {
-    height: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+#image {
+    margin: auto;
+    display: block;
 }
 
 #name {
-    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
     font-size: x-large;
 }
  
 .initial_descriptions {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
-    width: 170px;
+    font-size: medium;
+    width: 450px;
+    margin: 0 auto;
 }
 
 .about_me {
-    position: relative;
-    left: 220px;
+    margin: 0 auto;
     width: 1170px;
-    bottom: 415px;
-    font-family: 'Courier New', Courier, monospace;
     font-size: small;
 }
 
 #about_me_title {
-    position: relative;
-    left: 525px;
-    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
     font-size: x-large;
+    margin-bottom: 10px;
 }
 
 #about_me_text {
@@ -37,28 +36,23 @@ body {
 }
 
 table, th, td {
-    border: 1px solid;
-    margin: auto;
+    border: 1px solid #bdbdbd92;
+    margin: auto 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
 }
 
 .major_information {
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    bottom: 413px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.academic_education {
-    position: relative;
-    bottom: 413px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: justify;
-}
-
-.scientific_projects, .scientific_works, .awards, .scientific_events, .other{
-    position: relative;
-    bottom: 413px;
+.academic_education, .scientific_projects, .scientific_works, .awards, .scientific_events, .other{
+    margin: 0 auto;
     width: 1385px;
-    font-family: 'Courier New', Courier, monospace;
     text-align: justify;
+    margin-bottom: 10px;
 }
