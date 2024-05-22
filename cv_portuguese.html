@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang = "pt-br">
+    <meta charset = "UTF-8">
+    <head>
+        <link rel="stylesheet" type="text/css" href="cv.css" media = "screen" />
+        <script src="cv.js"></script>
+        <title>Curriculum Vitae do Gabriel</title>
+    </head>
+
+    <body>
+        <!-- welcome alert -->
+        <script>
+            window.onload = welcome_pt_br();
+        </script>
+
+    <div class = "box">
+        <!-- section of first apresentation -->
+        <div>
+            <h1 id = "name"> Gabriel Abílio Barbosa Ferreira </h1>
+            <input id = "lan_change_pt" type = "image" src = "data_aux/brazil.png" 
+            width = "40" height="24" title = "Language: Portuguese" onclick = "already_in_portuguese_page()">
+            <input id = "lan_change_en" type = "image" src = "data_aux/england.png"
+            width = "40" height="24" title="Language: English" onclick = "change_to_english_page()">
+            <img id = "image" src = "data_aux/image_perfil.jpeg" width = "23%" />
+        </div>
+        
+        <!-- section of initial descriptions -->
+        <div class = "initial_descriptions">
+            <ul>
+                <li>Nascimento: 21/07/2004</li>
+                <li>Belo Horizonte, Minas Gerais, Brasil</li>
+                <li>Contato:
+                    <ul>
+                        <li>+55 (33) 98416-4727</li>
+                        <li>gabilio@ufmg.br</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- about me section -->
+        <div class = "about_me">
+        <h3 id = "about_me_title">Sobre mim</h3>
+        <p id = "about_me_text"> 
+            Nascido em Manhuaçu, Minas Gerais, Brasil, desde cedo 
+            fui apaixonado pela busca por conhecimento. Ainda 
+            estudante do ensino fundamental e médio, matriculei-me 
+            no Colégio Losango - Manhuaçu, onde me aprofundei nas 
+            ciências naturais, descobrindo minha predileção por elas.
+            Ainda na escola, participei de Olimpíadas Científicas, 
+            por meio das quais ingressei na universidade, o que foi 
+            o início da minha trajetória acadêmica. Atualmente estou
+            matriculado em Sistemas de Informação na Universidade 
+            Federal de Minas Gerais (UFMG), porém, estive matriculado
+            em Física na Universidade Estadual de Campinas (Unicamp) por dois anos.
+            Além disso, participei do Programa Remoto UNIGOU da University of
+            Hradec Králové, realizando colaboração acadêmica em Ciência da Computação 
+            naquela universidade, tendo pesquisado Inteligência Artificial na Faculty of Informatics
+            and Management, Department of Information Technologies. Também 
+            realizei outras atividades científicas externas, como iniciação científica no CNPEM 
+            (Centro Nacional de Pesquisa em Energia e Materiais), onde estudei nanotecnologia, 
+            trabalhando no acelerador de elétrons Sirius, e participando da equipe de 
+            foguetemodelismo da UNICAMP (ANTARES), trabalhando no setor de eletrônica. Além disso, 
+            já ministrei monitoria acadêmica voluntária em Física Experimental I para alunos 
+            de graduação. Também participo regularmente de eventos científicos, tanto 
+            participando deles como apresentando trabalhos. Tenho interesses e habilidades 
+            em diversas linguagens de programação (C, C++, Python, Julia, JavaScript), Ciência de Dados, 
+            Inteligência Artificial e Desenvolvimento de Software nessas áreas. 
+            Hoje faço parte da equipe de Software da FabNS, pesquisando desenvolvimento de 
+            software em C++, trabalhando com tecnologias como C++, Qt, Git, POO, Linux e CMake.
+        </p>
+
+        <table>
+            <tr> 
+                <th>2022</th>
+                <th>2023</th>
+                <th>2024</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Matriculado em Física na Unicamp</li>
+                        <li>Iniciação Científica no CNPEM</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Encontro de Outono da Sociedade Brasileira de Física - EOSBF 2023</li>
+                        <li>PhenoBR 2023</li>
+                        <li>2nd Machine Learning School @Ilum</li>
+                        <li>Membro da ANTARES equipe de foguetemodelismo</li>
+                        <li>Apresentação de Poster</li>
+                        <li>Fim da Iniciação Científica no CNPEM</li>
+                        <li>Monitoria em Física Experimental I</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Matriculado em Sistemas de Informação na UFMG</li>
+                        <li>Trabalho na equipe de Software da FabNS</li>
+                        <li>Unigou Remote Program</li>
+                        <li>Colaboração Acadêmica na UHK</li>
+                        <li>MiniDebConf 2024 Belo Horizonte</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </div>    
+
+        <!-- section of introduction to the curriculum -->
+        <div class = "major_information"> 
+            <br>
+            <h1>Informações Acadêmicas Relevantes</h1>
+        </div>
+
+        <!-- section of academic education -->
+        <div class = "academic_education">
+            <br>
+            <h2>Educação formal</h3>
+            <p>2010 - 2021: Ensino fundamental e médio no <b>Colégio Losango - Manhuaçu</b></p>
+            <p>2022 - 2024: Bacharelado interrompido na <b>Universidade Estadual de Campinas - Unicamp</b></p>
+            <p>2024 - : Bacharelado em andamento na <b>Universidade Federal de Minas Gerais - UFMG</b></p>
+        </div>
+
+        <!-- section of scientific projects -->
+        <div class = "scientific_projects">
+            <br>
+            <h2>Projetos científicos</h3>
+            <p>
+                2022-2023: Iniciação Científica no <b>CNPEM (Centro Nacional de Pesquisa em Energia e Materiais)</b>:
+                Projeto e fabricação de nanoestruturas para análise via <em>s-SNOM</em> no infravermelho
+                e faixas de terahertz. Resumo: Neste projeto, um estudo experimental detalhado
+                será realizado na fabricação e posterior caracterização do <em>s-SNOM</em>
+                de heteroestruturas 2D baseadas em materiais lamelares (h-BN, MoO3 e Talco), bem como
+                como sua litografia na forma de ressonadores. A fabricação e montagem
+                das nanoestruturas será realizada no Laboratório de Materiais Bidimensionais
+                (L2D) em sintonia com a instrumentação <em>s-SNOM</em> em operação na linha IMBUIA da <b>Sirius</b>.
+                Eventualmente, estruturas mais sofisticadas serão produzidas através de nano desbaste por
+                "Focused Ion Beam" (FIB) no <b>Laboratório de Amostras Micrométricas (LAM)</b> no
+            <b>Laboratório Nacional de Luz Síncrotron (LNLS)</b>.
+            </p>
+            <p>
+                2023-2024: Membro da equipe de foguetemodelismo (<b>ANTARES</b>) na <b>Universidade Estadual de Campinas
+                (Unicamp)</b>, trabalhando no setor de Eletrônica.
+            </p>
+            <p>
+                2024-2024: Colaboração Acadêmica na <b>University of Hradec Králové</b>: Identificação e Mitigação de
+                Ameaças e vulnerabilidades de sistemas modernos de aprendizado de máquina. Resumo: O trabalho examinará vários
+                aspectos do potencial nocivo da inteligência artificial, ou seja, as abordagens e procedimentos
+                de inteligência artificial que pode ser a causa de ataques, e as possibilidades de prevenção e
+                defesa contra eles. Muitas das abordagens possíveis para prevenir e defender-se contra vulnerabilidades
+                A prevenção contra aplicações maliciosas de IA também deve basear-se em abordagens e práticas de IA. A pesquisa irá
+                portanto, concentrar-se tanto nos aspectos acima mencionados das aplicações de inteligência artificial como em
+                resolver problemas típicos de vulnerabilidades em sistemas de inteligência artificial.
+            </p>
+            <p>
+                2024 - : Desenvolvimento de Software na <b>FabNS</b>, trabalhando com a Equipe de Software, produzindo ferramentas relacionadas a IA e desenvolvimento de software em C++.
+                As principais competências são: <b>Qt</b>, <b>Git</b>, <b>C++</b>, <b>Linux</b>, <b>CMake</b> e <b>POO (Programação Orientada a Objetos)</b>.
+            </p>
+        </div>
+
+        <!-- section of scientific works -->
+        <div class = "scientific_works">
+            <br>
+            <h2>Apresentação de trabalhos científicos</h3>
+            <p>
+                2023: FERREIRA, G. A. B.; MAZZOTTI, V. ; MARTELLO FILHO, L. V. B. ; BARRETO, V. V. ; FREITAS, R. O ; BARCELOS, I. D . 
+                <em><b>Exciton-polariton imaging in TMD's via s-SNOM in the visible spectrum.</b></em> 2023. (Poster) - Semana da Física da Unicamp
+            </p>
+        </div>
+
+        <!-- section of awards -->
+        <div class = "awards">
+            <br>
+            <h2>Prêmios</h2>
+            <p>
+                2019 - Primeiro Colocado (Ensino Médio) - <b>Colégio Losango Manhuaçu</b>. <b>Medalha de Ouro</b>
+            </p>
+            <p>
+                2020 - Medalhista na <b>Olimpíada Brasileira de Astronomia e Astronáutica</b>. <b>Medalha de Prata</b>
+            </p>
+            <p>
+                2021 - Medalhista na <b>Olimpíada Brasileira de Astronomia e Astronáutica</b>.  <b>Medalha de Ouro</b>
+            </p>
+            <p>
+                2021 - Bolsa de estudos no valor de $10,000, <b>Minerva Schools at KGI (Minerva University)</b>.
+            </p>
+        </div>
+
+        <!-- section of scientific events -->
+        <div class = "scientific_events">
+            <br>
+            <h2>Eventos científicos</h2>
+            <p>
+                2023 - Encontro de Outono da Sociedade Brasileira de Física - EOSBF 2023.
+            </p>
+            <p>
+                2023 - PhenoBR 2023.
+            </p>
+            <p>
+                2023 - 2nd Machine Learning School @Ilum.
+            </p>
+            <p>
+                2024 - MiniDebConf 2024 Belo Horizonte.
+            </p>
+        </div>
+
+        <!-- other important information -->
+        <div class = "other">
+            <br>
+            <h2>Outras Informações</h2>
+            <p>
+                Vale destacar algumas certificações adicionais: Conclusão do Curso de Português - Kumon, nível avançado do curso de Matemática - Kumon, Cambridge 
+                First Certificate in English (Grade A), Introdução à Ciência da Computação com Python - USP,
+                Data Wrangling with Python Specialization (incluindo Data Collection and Integration,
+                Fundamental Tools of Data Wrangling, Data Processing and Manipulation, Data Wrangling with Python Project and
+                Data Understanding and Visualization) - University of Colorado Boulder, Introduction to Machine Learning - 
+                Duke University. Adicionalmente, realizei monitoria de Física Experimental I para estudantes de graduação.
+            </p>
+            <p>
+                Além disso, você pode me contatar a partir do meu <a href = "https://www.linkedin.com/in/g-abilio/" target = "_blank"> LinkedIn</a> e ver meu
+                portifólio no <a href = "https://github.com/g-abilio" target = "_blank"> GitHub</a>.
+            </p>
+        </div>
+
+    </body>
+
+</html>

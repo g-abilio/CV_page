@@ -3,101 +3,112 @@
 <html lang = "en">
     <meta charset = "UTF-8">
     <head>
-        <link rel="stylesheet" type="text/css" href="cv.css" media = "screen" />
+        <link rel="stylesheet" type="text/css" href="cv.css" media = "screen"/>
+        <script src="cv.js"></script>
         <title>Gabriel's Curriculum Vitae</title>
     </head>
 
     <body>
+        <!-- welcome alert -->
+        <script>
+            window.onload = welcome_en();
+        </script>
 
-        <!-- section of first apresentation -->
-        <div>
-            <h1 id = "name"> Gabriel Abílio Barbosa Ferreira </h1>
-            <img id = "image" src = "data_aux/image_perfil.jpeg" width = "23%" />
-        </div>
-        
-        <!-- section of initial descriptions -->
-        <div class = "initial_descriptions">
-            <ul>
-                <li>Birth: 21/07/2004</li>
-                <li>Belo Horizonte, Minas Gerais, Brazil</li>
-                <li> Contact:
-                    <ul>
-                        <li>+55 (33) 98416-4727</li>
-                        <li>gabilio@ufmg.br</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+        <div class = "box">
+            <!-- section of first apresentation -->
+            <div>
+                <h1 id = "name"> Gabriel Abílio Barbosa Ferreira </h1>
+                <input id = "lan_change_pt" type = "image" src = "data_aux/brazil.png" 
+                width = "40" height="24" title = "Language: Portuguese" onclick = "change_to_portuguese_page()">
+                <input id = "lan_change_en" type = "image" src = "data_aux/england.png" 
+                width = "40" height="24" title = "Language: England" onclick = "already_in_english_page()">
+                <img id = "image" src = "data_aux/image_perfil.jpeg" width = "23%"/>
+            </div>
+            
+            <!-- section of initial descriptions -->
+            <div class = "initial_descriptions">
+                <ul>
+                    <li>Birth: 21/07/2004</li>
+                    <li>Belo Horizonte, Minas Gerais, Brazil</li>
+                    <li>Contact:
+                        <ul>
+                            <li>+55 (33) 98416-4727</li>
+                            <li>gabilio@ufmg.br</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
-        <!-- about me section -->
-        <div class = "about_me">
-        <h3 id = "about_me_title">About me</h3>
-        <p id = "about_me_text"> 
-            Born in Manhuaçu, Minas Gerais, Brazil, from an early age 
-            I was passionate about the search for knowledge. As a 
-            primary and secondary school student, I enrolled at 
-            Colégio Losango - Manhuaçu, where I delved deeper into 
-            natural sciences, discovering my predilection for them. 
-            While still at school, I participated in Scientific Olympiads, 
-            through which I entered university, which was the beginning
-            of my academic career. I am currently enrolled in Information 
-            Systems at the Federal University of Minas Gerais (UFMG),
-            however, I was enrolled in Physics at the State University 
-            of Campinas (Unicamp) for two years. Furthermore, I
-            participated in the UNIGOU Remote Program at the University of
-            Hradec Králové, carrying out academic collaboration in Computer
-            Science at that university, having researchead Artificial
-            Intelligence at the Faculty of Informatics and Management, 
-            Department of Information Technologies. I also carried out other 
-            external scientific activities, such as an internship at CNPEM 
-            (National Center for Research in Energy and Materials), where I 
-            studied Nanotechnology, working on the Sirius electron accelerator,
-            and participating in the rocketry team at UNICAMP (ANTARES), working 
-            in the Electronics sector. In addition, I have already provided voluntary
-            academic tutoring in Applied Physics I to undergraduate students. 
-            I also regularly participate in scientific events, both participating 
-            in them and presenting work. I have interests and skills in various
-            programming languages (C, C++, Python, Julia), Data Science,
-            Artificial Intelligence and Software Development in such areas. Today 
-            I am part of the FabNS software team, researching software development 
-            in C++, working with technologies such as C++, Qt, Git, OOP, Linux and CMake.
-        </p>
+            <!-- about me section -->
+            <div class = "about_me">
+            <h3 id = "about_me_title">About me</h3>
+            <p id = "about_me_text"> 
+                Born in Manhuaçu, Minas Gerais, Brazil, from an early age 
+                I was passionate about the search for knowledge. As a 
+                primary and secondary school student, I enrolled at 
+                Colégio Losango - Manhuaçu, where I delved deeper into 
+                natural sciences, discovering my predilection for them. 
+                While still at school, I participated in Scientific Olympiads, 
+                through which I entered university, which was the beginning
+                of my academic career. I am currently enrolled in Information 
+                Systems at the Federal University of Minas Gerais (UFMG),
+                however, I was enrolled in Physics at the State University 
+                of Campinas (Unicamp) for two years. Furthermore, I
+                participated in the UNIGOU Remote Program at the University of
+                Hradec Králové, carrying out academic collaboration in Computer
+                Science at that university, having researchead Artificial
+                Intelligence at the Faculty of Informatics and Management, 
+                Department of Information Technologies. I also carried out other 
+                external scientific activities, such as an internship at CNPEM 
+                (National Center for Research in Energy and Materials), where I 
+                studied Nanotechnology, working on the Sirius electron accelerator,
+                and participating in the rocketry team at UNICAMP (ANTARES), working 
+                in the Electronics sector. In addition, I have already provided voluntary
+                academic tutoring in Applied Physics I to undergraduate students. 
+                I also regularly participate in scientific events, both participating 
+                in them and presenting work. I have interests and skills in various
+                programming languages (C, C++, Python, Julia), Data Science,
+                Artificial Intelligence and Software Development in such areas. Today 
+                I am part of the FabNS software team, researching software development 
+                in C++, working with technologies such as C++, Qt, Git, OOP, Linux and CMake.
+            </p>
 
-        <table>
-            <tr> 
-                <th>2022</th>
-                <th>2023</th>
-                <th>2024</th>
-            </tr>
-            <tr>
-                <td>
-                    <ul>
-                        <li>Enrolled in Physics at Unicamp</li>
-                        <li>Internship at CNPEM</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Autumn Meeting of the Brazilian Physical Society - EOSBF 2023</li>
-                        <li>PhenoBR 2023</li>
-                        <li>2nd Machine Learning School @Ilum</li>
-                        <li>Entering ANTARES rocketry team</li>
-                        <li>Poster presentation</li>
-                        <li>Finishing the internship at Sirius</li>
-                        <li>Tutoring in Applied Physics I</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Enrolled in Information Systems at UFMG</li>
-                        <li>Entering FabNS</li>
-                        <li>Unigou Remote Program</li>
-                        <li>Academic Collaboration with UHK</li>
-                        <li>MiniDebConf 2024 Belo Horizonte</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+            <table>
+                <tr> 
+                    <th>2022</th>
+                    <th>2023</th>
+                    <th>2024</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Enrolled in Physics at Unicamp</li>
+                            <li>Internship at CNPEM</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Autumn Meeting of the Brazilian Physical Society - EOSBF 2023</li>
+                            <li>PhenoBR 2023</li>
+                            <li>2nd Machine Learning School @Ilum</li>
+                            <li>Entering ANTARES rocketry team</li>
+                            <li>Poster presentation</li>
+                            <li>Finishing the internship at Sirius</li>
+                            <li>Tutoring in Applied Physics I</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Enrolled in Information Systems at UFMG</li>
+                            <li>Entering FabNS</li>
+                            <li>Unigou Remote Program</li>
+                            <li>Academic Collaboration with UHK</li>
+                            <li>MiniDebConf 2024 Belo Horizonte</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            </div>
         </div>
 
         <!-- section of introduction to the curriculum -->
@@ -112,7 +123,7 @@
             <h2>Academic education</h3>
             <p>2010 - 2021: Primary and Secondary School at <b>Colégio Losango - Manhuaçu</b></p>
             <p>2022 - 2024: B.Sc. Interrupted Major in Physics at <b>State University of Campinas - Unicamp</b></p>
-            <p>2024 - B.Sc.: Majoring in Information Systems at <b>Federal University of Minas Gerais - UFMG</b></p>
+            <p>2024 - : B.Sc Majoring in Information Systems at <b>Federal University of Minas Gerais - UFMG</b></p>
         </div>
 
         <!-- section of scientific projects -->

@@ -6,13 +6,26 @@ body {
 #image {
     margin: auto;
     display: block;
+    padding: 10px;
 }
 
 #name {
     text-align: center;
     font-size: x-large;
 }
- 
+
+#lan_change_pt {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+#lan_change_en {
+    position: relative;
+    top: 10px;
+    left: 103px;
+}
+
 .initial_descriptions {
     font-size: medium;
     width: 450px;
@@ -48,6 +61,11 @@ th, td {
 .major_information {
     margin-bottom: 10px;
     text-align: center;
+}
+
+.box {
+    border: 3px solid rgb(165, 165, 165);
+    padding: 10px;
 }
 
 .academic_education, .scientific_projects, .scientific_works, .awards, .scientific_events, .other{
