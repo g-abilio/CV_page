@@ -1,6 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
+    transform: scale(0.93);
 }
 
 #image {
@@ -64,19 +65,20 @@ th, td {
 }
 
 .box {
-    border: 3px solid rgb(165, 165, 165);
+    border: 3px solid rgb(232, 232, 232);
     padding: 9px;
+    box-shadow: 0 0 0 300px rgb(232, 232, 232);
 }
 
 #dashed_line {
-    border: 1px dashed rgb(165, 165, 165);
+    border: 1px dashed rgb(172, 172, 172);
     position: relative;
     top: 23px;
 }
 
 .academic_education, .scientific_projects, .scientific_works, .awards, .scientific_events, .other{
     margin: 0 auto;
-    width: 1385px;
+    width: 1274px;
     text-align: justify;
     margin-bottom: 10px;
 }
