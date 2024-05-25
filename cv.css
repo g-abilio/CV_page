@@ -7,6 +7,8 @@ body {
 #image {
     margin: auto;
     display: block;
+    max-width: 100%;
+    height: auto;
     padding: 10px;
 }
 
@@ -23,19 +25,21 @@ body {
 
 #lan_change_en {
     position: relative;
-    top: 10px;
+    top: 10px; 
     left: 103px;
 }
 
 .initial_descriptions {
     font-size: medium;
-    width: 450px;
+    width: 90%;
+    max-width: 450px;
     margin: 0 auto;
 }
 
 .about_me {
     margin: 0 auto;
-    width: 1170px;
+    width: 90%;
+    max-width: 1170px;
     font-size: small;
 }
 
@@ -51,8 +55,10 @@ body {
 
 table, th, td {
     border: 1px solid #bdbdbd92;
-    margin: auto 0;
+    margin: auto 0 10px auto;
     border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
 }
 
 th, td {
@@ -74,11 +80,13 @@ th, td {
     border: 1px dashed rgb(172, 172, 172);
     position: relative;
     top: 23px;
+    width: 100%;
 }
 
 .academic_education, .scientific_projects, .scientific_works, .awards, .scientific_events, .other{
     margin: 0 auto;
-    width: 1274px;
+    width: 90%;
+    max-width: 1274px;
     text-align: justify;
     margin-bottom: 10px;
 }
