@@ -65,6 +65,39 @@ th, td {
     padding: 8px;
 }
 
+.th_new, .td_new {
+    border: 1px solid black;
+    margin: auto 0 10px auto;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    padding: 8px;
+    font-weight: bold;
+}
+
+#column_slider {
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgb(232, 232, 232);
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    width: 90%;
+    max-width: 585px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+#column_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+}
+
 .major_information {
     margin-bottom: 10px;
     text-align: center;
