@@ -74,20 +74,25 @@
                 in C++, working with technologies such as C++, Qt, Git, OOP, Linux and CMake.
             </p>
 
+            <div>
+                <p>Scroll to see the activities in each year:</p>
+                <input type="range" min="0" max="2" value="0" id="column_slider" oninput="showColumn(this.value)">
+            </div>
+
             <table>
                 <tr> 
-                    <th>2022</th>
-                    <th>2023</th>
-                    <th>2024</th>
+                    <th id = "col_2022">2022</th>
+                    <th id = "col_2023">2023</th>
+                    <th id = "col_2024">2024</th>
                 </tr>
                 <tr>
-                    <td>
+                    <td id = "info_2022">
                         <ul>
                             <li>Enrolled in Physics at Unicamp</li>
                             <li>Internship at CNPEM</li>
                         </ul>
                     </td>
-                    <td>
+                    <td id = "info_2023">
                         <ul>
                             <li>Autumn Meeting of the Brazilian Physical Society - EOSBF 2023</li>
                             <li>PhenoBR 2023</li>
@@ -98,7 +103,7 @@
                             <li>Tutoring in Applied Physics I</li>
                         </ul>
                     </td>
-                    <td>
+                    <td id = "info_2024">
                         <ul>
                             <li>Enrolled in Information Systems at UFMG</li>
                             <li>Entering FabNS</li>
