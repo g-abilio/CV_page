@@ -17,6 +17,10 @@ body {
     font-size: x-large;
 }
 
+#name:hover {
+    color: rgb(172, 172, 172);
+}
+
 #lan_change_pt {
     position: relative;
     top: 10px;
@@ -101,6 +105,10 @@ th, td {
 .major_information {
     margin-bottom: 10px;
     text-align: center;
+}
+
+#about_me_title:hover, #major_information_title:hover, #academic_education_title:hover, #scientific_projects_title:hover, #scientific_works_title:hover, #awards_title:hover, #scientific_events_title:hover, #other_information_title:hover {
+    color: rgb(172, 172, 172);
 }
 
 .box {
