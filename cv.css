@@ -107,7 +107,7 @@ th, td {
     text-align: center;
 }
 
-#about_me_title:hover, #major_information_title:hover, #academic_education_title:hover, #scientific_projects_title:hover, #scientific_works_title:hover, #awards_title:hover, #scientific_events_title:hover, #other_information_title:hover {
+#about_me_title:hover, #major_information_title:hover, #academic_education_title:hover, #scientific_projects_title:hover, #scientific_production_title:hover, #scientific_works_title:hover, #awards_title:hover, #scientific_events_title:hover, #additional_qualification_title:hover, #other_information_title:hover {
     color: rgb(172, 172, 172);
 }
 
@@ -124,7 +124,7 @@ th, td {
     width: 100%;
 }
 
-.academic_education, .scientific_projects, .scientific_works, .awards, .scientific_events, .other{
+.academic_education, .additional_qualification, .scientific_projects, .scientific_works, .awards, .scientific_events, .scientific_production, .other{
     margin: 0 auto;
     width: 90%;
     max-width: 1274px;
